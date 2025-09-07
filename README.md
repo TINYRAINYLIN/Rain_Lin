@@ -1,7 +1,4 @@
-## Contact
-##### Email: rain1128@bu.edu
-##### Phone: (631)-829-1448
-##### [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
+# Rain Lin
 
 🎓 **Master’s student in Data Science at Boston University with a B.S. in Psychology.**
 
@@ -30,3 +27,9 @@ Tech Stack: Python, Pandas, scikit-learn, RandomizedSearchCV/GridSearchCV, Ridge
 #### Status
 - Current: Hyper-tuning RF & LGBM and selecting a champion model via CV + test metrics
 - Next: Add explainability: feature importance → permutation → SHAP. Modularize into src/ + add predict.py and basic tests. Deploy Streamlit app.
+
+## Contact: 
+
+##### Email: rain1128@bu.edu
+##### Phone: (631)-829-1448
+##### [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
