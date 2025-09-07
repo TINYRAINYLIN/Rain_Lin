@@ -1,4 +1,5 @@
-##### Email: rain1128@icloud.com
+## Contact
+##### Email: rain1128@bu.edu
 ##### Phone: (631)-829-1448
 ##### [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
 
