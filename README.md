@@ -1,6 +1,8 @@
-# Rain Lin Portfolio
+##### Email: rain1128@icloud.com
+##### Phone: (631)-829-1448
+##### [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
 
-🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology.
+🎓 **Master’s student in Data Science at Boston University with a B.S. in Psychology.**
 
 ## Project Overview
 
@@ -13,7 +15,7 @@ Tech Stack: Python, Pandas, scikit-learn, Surprise (SVD), PyTorch (NCF), XGBoost
 - Implemented Neural Collaborative Filtering (NCF) in PyTorch to add a deep-learning perspective to collaborative signals.
 - Deployed a Streamlit app on Hugging Face Spaces for real-time exploration and evaluation.
 
-#### Status: Adding product catalog metadata enrichment (titles, images, categories) and UI search/filters so users see product names/thumbnails instead of raw IDs and can browse by keyword or category.
+#### **Status: Adding product catalog metadata enrichment (titles, images, categories) and UI search/filters so users see product names/thumbnails instead of raw IDs and can browse by keyword or category.**
 
 ### Zillow Home Value Prediction | End to End Machine Learning Regression Project
 Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Prediction)
@@ -26,4 +28,4 @@ Tech Stack: Python, Pandas, scikit-learn, RandomizedSearchCV/GridSearchCV, Ridge
 
 #### Status
 - Current: Hyper-tuning RF & LGBM and selecting a champion model via CV + test metrics
-- Next: Add explainability: feature importance → permutation → SHAP. Modularize into src/ + add predict.py and basic tests. Deploy minimal Streamlit app and update README
+- Next: Add explainability: feature importance → permutation → SHAP. Modularize into src/ + add predict.py and basic tests. Deploy Streamlit app.
