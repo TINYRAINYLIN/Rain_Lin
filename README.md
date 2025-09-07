@@ -1,16 +1,23 @@
 # Rain Lin Portfolio
 
-## About Me
 🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology.
 
-💡 Experienced in machine learning, NLP, recommender systems, and full-stack development.
-
-🚀 Passionate about turning data into actionable insights and deploying models into production with real-world impact.
-
-## Project
+## Project Overview
 
 ### Hybrid Ensemble Recommender System | End to End Machine Learning Project
-- Built an end-to-end hybrid recommender on the Amazon Electronics dataset, combining collaborative filtering (SVD, NCF), content-based methods (BERT embeddings), and sentiment analysis (VADER).
-- Enhanced recommendation accuracy with an XGBoost ranking layer, achieving Precision@5 = 0.88, Recall@5 = 0.86, AUC = 0.89.
-- Deployed an interactive Streamlit app on Hugging Face Spaces, enabling real-time recommendations with MLOps lifecycle management.
-- Tech Stack: Python, Pandas, scikit-learn, Surprise, XGBoost, PyTorch, Hugging Face, NLTK, VADER, Streamlit
+Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System) · [Live Demo](https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System)
+- Designed a multi-stage pipeline combining SVD/NCF collaborative filtering, BERT content similarity, and VADER sentiment to generate candidate items and features.
+- Trained an XGBoost ranker to score candidates, reaching Precision@5 = 0.88, Recall@5 = 0.86, AUC = 0.89 on the Amazon Electronics dataset.
+- Implemented Neural Collaborative Filtering (NCF) in PyTorch to add a deep-learning perspective to collaborative signals.
+- Deployed a Streamlit app on Hugging Face Spaces for real-time exploration and evaluation.
+- Tech Stack: Python, Pandas, scikit-learn, Surprise (SVD), PyTorch (NCF), XGBoost, Hugging Face, NLTK/VADER, Streamlit.
+- Current Status: Adding product catalog metadata enrichment (titles, images, categories) and UI search/filters so users see product names/thumbnails instead of raw IDs and can browse by keyword or category.
+
+### Zillow Home Value Prediction | End to End Machine Learning Regression Project
+Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Prediction)
+- Built a property-value prediction pipeline on Zillow data: EDA, outlier/missing-value handling, and feature engineering.
+- Trained and compared Ridge, Random Forest, and LightGBM with cross-validation, randomized hyperparameter search, and grid search.
+- Added clear plots (R²/MAE/RMSE) and residual diagnostics to validate stability.
+- Random Forest delivered the top cross-validated performance (R²≈0.979, MAE≈5,266, RMSE≈87,717)
+- Tech Stack: Python, Pandas, scikit-learn, RandomizedSearchCV/GridSearchCV, Ridge, Random Forest, LightGBM, Matplotlib/Seaborn.
+- Current Status: Hyper-tuning RF & LGBM and selecting a champion model via CV + test metrics; next, refactor notebooks into a modular src/ codebase with a reproducible train/eval pipeline and a clean inference script.
