@@ -8,7 +8,6 @@
 🔗 [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
 
 ## Project Overview
-
 ### Hybrid Ensemble Recommender System | End to End Machine Learning Project
 Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System) · [Live Demo](https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System)
 
