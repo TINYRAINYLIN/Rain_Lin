@@ -1,10 +1,10 @@
 /* Override Tactile theme width */
 .wrapper {
-  max-width: 2000px;   
-  width: 95%;        
+  max-width: 2500px;   
+  width: 90%;        
   margin: 0 auto;   
 }
 
 .post {
-  max-width: 1700px;   
+  max-width: 2000px;   
 }
