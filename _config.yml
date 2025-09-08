@@ -1,5 +1,9 @@
 title: "Rain Lin"
-theme: jekyll-theme-tactile
 description: ""
-include: ["style.css"]
+theme: jekyll-theme-tactile
+include:
+  - style.css
 
+# Add this line:
+plugins:
+  - jekyll-include-cache
