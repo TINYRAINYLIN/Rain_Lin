@@ -1,11 +1,7 @@
-🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology
+                          🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology
 
 ## Contact
-📧 Email: rain1128@bu.edu
-
-📱 Phone: (631) 829-1448
-
-🔗 [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
+            📧 Email: rain1128@bu.edu   📱 Phone: (631) 829-1448   🔗 [LinkedIn](https://www.linkedin.com/in/rainlin112802/)  🌍New York, NY
 
 ## Project Overview
 ### Hybrid Ensemble Recommender System | End-to-End Hybrid ML Pipeline 
