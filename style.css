@@ -9,3 +9,7 @@
   max-width: 2000px;
   text-align: center;
 }
+
+body {
+  background-color: #ffeeee; /* light pink test */
+}
