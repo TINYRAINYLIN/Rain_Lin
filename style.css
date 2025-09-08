@@ -1,11 +1,10 @@
 /* Override Tactile theme width */
 .wrapper {
-  max-width: 1200px;   /* Default is around 700px, you can increase */
-  width: 90%;          /* Keeps some margin on the sides */
-  margin: 0 auto;      /* Centers content */
+  max-width: 2000px;   
+  width: 95%;        
+  margin: 0 auto;   
 }
 
 .post {
-  max-width: 1000px;   /* Adjust post content width */
+  max-width: 1700px;   
 }
-
