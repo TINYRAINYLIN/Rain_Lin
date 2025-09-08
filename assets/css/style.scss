@@ -1,1 +1,16 @@
+---
+---
+
+@import "jekyll-theme-tactile"; /* load the base theme */
+
+/* Override widths */
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.post {
+  max-width: 1000px;
+}
 
