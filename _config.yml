@@ -1,9 +1,3 @@
 title: "Rain Lin"
 description: ""
 theme: jekyll-theme-tactile
-include:
-  - style.css
-
-# Add this line:
-plugins:
-  - jekyll-include-cache
