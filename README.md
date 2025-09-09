@@ -29,10 +29,9 @@ Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Predi
 
 📌 **Description:**  
 
-- Built a **property-value prediction pipeline** on **Zillow data**: **EDA**, **outlier/missing-value handling**, and **feature engineering**.  
-- Trained and compared **Ridge**, **Random Forest**, and **LightGBM** with **cross-validation**, **randomized hyperparameter search**, and **grid search**.  
-- Added clear **plots (R²/MAE/RMSE)** and **residual diagnostics** to validate **stability**.  
-- **Random Forest delivered the top cross-validated performance (R²≈0.979, MAE≈5,266, RMSE≈87,717).**
+- **Processed** the Zillow Kaggle dataset with **EDA**, outlier detection, **missing value imputation**, and **feature engineering** to improve model inputs.  
+- **Trained and compared** multiple regression models (**Linear Regression, Ridge, Random Forest, LightGBM**) using **cross-validation** and **randomized/grid search** for hyperparameter tuning.  
+- **Achieved top performance** with **Random Forest** (R² ≈ 0.979, MAE ≈ $5,266, RMSE ≈ $87,717) and validated results with residual plots and diagnostic analysis.  
 
 📌 **Status:**  
 - **Current:** **Hyper-tuning RF & LGBM** and selecting a **champion model** via **CV + test metrics**.  
