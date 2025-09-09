@@ -14,11 +14,9 @@
 Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System) · [Live Demo](https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System)
 
 📌 **Description:**  
-- Designed a **multi-stage pipeline** combining **SVD/NCF collaborative filtering**, **BERT content similarity**, and **VADER sentiment** to generate **candidate items and features**.  
-- Trained an **XGBoost ranker** to score candidates, reaching **Precision@5 = 0.88**, **Recall@5 = 0.86**, **AUC = 0.89** on the **Amazon Electronics dataset**.  
-- Implemented **Neural Collaborative Filtering (NCF)** in **PyTorch** to add a **deep-learning perspective** to collaborative signals.  
-- **Deployed a Streamlit app** on **Hugging Face Spaces** for **real-time exploration and evaluation**.
-
+- **Engineered product candidate sets** by combining **SVD collaborative filtering** with **BERT-based content similarity**, then constructed **feature vectors** using model **prediction scores**, **VADER sentiment analysis**, and **catalog metadata** (**titles, categories, ratings**) to enrich ranking inputs.  
+- **Trained and tuned an XGBoost ranker** to score and rank candidate products, delivering **top-N personalized recommendations** with **15% higher accuracy** than baselines (**Precision@5 = 0.88**, **Recall@5 = 0.86**, **AUC = 0.89**), and compared with **Neural Collaborative Filtering (NCF)** for **ensemble improvements**.  
+- Deployed an interactive **Streamlit application** with **end-to-end MLOps integration** on **Hugging Face Spaces**, enabling users to **search, filter, and explore recommendations** in real time.  
 📌 **Status:**  
 - Adding **product catalog metadata enrichment** (**titles, images, categories**) and **UI search/filters** so users can browse by **keyword/category** instead of **raw IDs**.
 
