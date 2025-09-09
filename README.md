@@ -1,10 +1,10 @@
                           🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology
-
-## Contact
-            📧 Email: rain1128@bu.edu   📱 Phone: (631) 829-1448   🌍New York, NY
+                        
+## Contact Info
+                              📧 Email: rain1128@bu.edu   📱 Phone: (631) 829-1448   🌍New York, NY
 🔗 [LinkedIn](https://www.linkedin.com/in/rainlin112802/)
-💻 [Github] ()
-📄 [Resume] ()
+💻 [Github](https://github.com/TINYRAINYLIN)
+📄 [Resume](https://github.com/TINYRAINYLIN/Rain_Lin/blob/main/RainLin_Resume.pdf)
 
 
 ## Project Overview
