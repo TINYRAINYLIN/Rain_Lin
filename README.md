@@ -1,16 +1,17 @@
                           🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology                       
 
 
-## Contact Info
-📧 Email: rain1128@bu.edu 
-📱 Phone: (631) 829-1448 
+# Contact Info
 🔗 [LinkedIn](https://www.linkedin.com/in/rainlin112802/) 
 💻 [Github](https://github.com/TINYRAINYLIN) 
 📄 [Resume](https://github.com/TINYRAINYLIN/Rain_Lin/blob/main/RainLin_Resume.pdf)
 
+📧 Email: rain1128@bu.edu 
+📱 Phone: (631) 829-1448 
 
-## Project Overview
-#### Amazon Electronics Recommender System | End-to-End Hybrid Machine Learning Pipeline 
+
+# Project Overview
+### Amazon Electronics Recommender System | End-to-End Hybrid Machine Learning Pipeline 
 Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System) · [Live Demo](https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System)
 
 **Tech Stack:** **Python**, **Pandas**, **scikit-learn**, **Surprise (SVD)**, **PyTorch (NCF)**, **XGBoost**, **Hugging Face**, **NLTK/VADER**, **Streamlit**
@@ -22,7 +23,7 @@ Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recomm
 📌 **Status:**  
 - Adding **product catalog metadata enrichment** (**titles, images, categories**) and **UI search/filters** so users can browse by **keyword/category** instead of **raw IDs**.
 
-#### Zillow Home Value Prediction | End-to-End Regression Pipeline 
+### Zillow Home Value Prediction | End-to-End Regression Pipeline 
 Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Prediction)
 
 **Tech Stack:** **Python**, **Pandas**, **scikit-learn**, **RandomizedSearchCV/GridSearchCV**, **Ridge**, **Random Forest**, **LightGBM**, **Matplotlib/Seaborn**
