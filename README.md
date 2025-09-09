@@ -1,4 +1,6 @@
                           🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology                       
+
+
 ## Contact Info
 📧 Email: rain1128@bu.edu
 📱 Phone: (631) 829-1448
