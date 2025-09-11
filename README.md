@@ -15,7 +15,7 @@ Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recomm
 
 📌 **Description:**  
 - **Engineered product candidate sets** by combining **SVD collaborative filtering** with **BERT-based content similarity**, then constructed **feature vectors** using model **prediction scores**, **VADER sentiment analysis**, and **catalog metadata** (**titles, categories, ratings**) to enrich ranking inputs.  
-- **Trained and tuned an XGBoost ranker** to score and rank candidate products, delivering **top-N personalized recommendations** with **15% higher accuracy** than baselines (**Precision@5 = 0.88**, **Recall@5 = 0.86**, **AUC = 0.89**), and compared with **Neural Collaborative Filtering (NCF)** for **ensemble improvements**.  
+- **Trained and tuned an XGBoost ranker** to score and rank candidate products, delivering **top-N personalized recommendations** with **Precision@5 = 0.88**, **Recall@5 = 0.86**, **AUC = 0.89**, and compared with **Neural Collaborative Filtering (NCF)** for **ensemble improvements**.  
 - Deployed an interactive **Streamlit application** with **end-to-end MLOps integration** on **Hugging Face Spaces**, enabling users to **search, filter, and explore recommendations** in real time.  
 
 📌 **Tech Stack:** 
