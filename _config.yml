@@ -1,7 +1,0 @@
-plugins:
-  - jekyll-remote-theme
-
-remote_theme: daviddarnes/alembic@main
-
-title: Rain Lin
-description: 🎓 Master’s student in Data Science at Boston University with a B.S. in Psychology   
