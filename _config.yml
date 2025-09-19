@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rain Lin
-title: M.S. Data Science, Boston University (2024–2026)
+title: M.S. Data Science, Boston University
 email: rain1128@bu.edu
 Resume: https://github.com/TINYRAINYLIN/Rain_Lin/blob/main/RainLin_Resume.pdf
 
@@ -45,10 +45,11 @@ linkedin_username: rainlin112802
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+# about_title: **About Me**
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Rain, and I am a Master’s student in Data Science at Boston University (2024–2026) with expertise spanning data analysis, data science, machine learning engineering, and data engineering. I enjoy working across the entire data lifecycle — from designing and managing data pipelines, to conducting advanced statistical and analytical modeling, to developing and deploying machine learning systems in cloud environments. I am motivated to apply these skills in professional settings where rigorous analysis, reliable infrastructure, and impactful model deployment come together.
+  Hi, my name is **Rain**, and I am a **Master’s student in Data Science at Boston University** with expertise spanning **data analysis, data science, machine learning engineering, and data engineering**. I enjoy working across the entire **data lifecycle**, from **designing and managing data pipelines**, to conducting advanced **statistical and analytical modeling**, to developing and deploying **machine learning systems in cloud environments**. I am motivated to apply these skills in professional settings where rigorous analysis, reliable infrastructure, and impactful model deployment come together.
+
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
@@ -57,21 +58,31 @@ content:
     content:
       - layout: top-middle
         title: Amazon Electronics Recommender System
+        image: images/Sentiment_Score_for_Cleaned_Data.png
         link: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
         link_text: Live Demo
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: https://github.com/TINYRAINYLIN/Hybrid-Ensemble-Recommender-System
+            url: https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-           Hybrid ML Recommender with Real-Time Deployment
-        description: | # this will include new lines to allow paragraphs
+           
+            Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch, Hugging Face, NLTK, VADER, Streamlit
         
-            This work presents a hybrid recommender system for Amazon electronics that combined SVD collaborative filtering and BERT-based content similarity to generate product candidates. Feature vectors were enriched with prediction scores, sentiment analysis, and metadata, which served as inputs for a ranking pipeline powered by XGBoost. The model achieved strong performance (Precision@5 = 0.88, Recall@5 = 0.86, AUC = 0.89) and was further enhanced through ensembling with Neural Collaborative Filtering (NCF). To enable real-time interaction, the system was deployed as a Streamlit application on Hugging Face Spaces with full MLOps integration, reducing latency by 20% and allowing users to seamlessly explore personalized product recommendations.
-       
+        description: | # this will include new lines to allow paragraphs
+
+              This project developed a **hybrid recommendation system** for Amazon electronics using a **multi-stage architecture**. Candidate products were generated with **SVD (Surprise)** for collaborative filtering and **BERT embeddings** for content similarity. **Feature vectors** were engineered by combining **prediction scores**, **sentiment scores (VADER)**, and **product metadata**, which were then ranked with **XGBoost**. The system achieved **Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89**, and performance was further improved through ensembling with **Neural Collaborative Filtering (PyTorch)**. Deployment was completed with a **Streamlit app** on **Hugging Face Spaces**, integrating **MLOps practices** to reduce latency by **20%** and enabling **real-time recommendation exploration**.  
+              ![SC](images/Sentiment Score for Cleaned Data.png "SC"){:width="420px"}
+              ![Demo](images/Demo Pic.png "Demo"){:width="320px"}
+              ![Bar](images/Bar.png "Bar"){:width="370px"}
+              ![Table](images/Final Score Table.png "Table"){:width="1000px"}
+
+
+              
+
       - layout: top-middle
         title: Real Estate Investment Valuation App
         # link: 
@@ -81,36 +92,55 @@ content:
             icon: fab fa-github
             url: https://github.com/TINYRAINYLIN/Real_Estate_Investment_Valuation_App
         quote: >
-          Advanced Regression Pipeline with Model Comparison
+          Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
         description: |
-         The Zillow Kaggle dataset was processed through comprehensive exploratory data analysis, missing value imputation, and the engineering of over 200 domain-driven features to enhance predictive accuracy. Multiple regression models, including Linear Regression, Ridge Regression, Random Forest, and LightGBM, were trained and tuned with cross-validation, with Random Forest delivering the strongest performance (R² = 0.874, MAE = 10.9k, RMSE = 271k, and 85% of predictions within 10k of actual values). Model interpretability was integrated using SHAP visualizations (beeswarm, dependence, and waterfall), alongside Folium geospatial analysis, with deployment preparations underway for an interactive Streamlit application on AWS.
+          This work involved **processing the Zillow Kaggle dataset** through exploratory data analysis (EDA), missing value handling, and the engineering of **200+ domain-driven features** to enhance predictive accuracy. A variety of regression models were trained and tuned, including Linear, Ridge, Random Forest, and LightGBM, with cross-validation confirming that the **Random Forest model achieved the strongest performance (R² = 0.874, MAE = 10.9k, RMSE = 271k, with 85% of predictions within 10k of actual values)**. To improve interpretability, **SHAP explainability methods** (beeswarm, dependence, waterfall) were applied to identify key drivers of property value. Additional **geospatial insights** were generated using Folium to visualize property trends across regions. The pipeline is being prepared for **deployment as an interactive Streamlit app on AWS**, enabling real-time property valuation and exploration.
+        
+          ![SHAP](images/SHAP.png "SHAP"){:width="250px"}
+          ![waterfall](images/waterfall.png "waterfall"){:width="350px"}
+          ![Heatmap](images/Heatmap.png "Heatmap"){:width="300px"}
+          ![Colormap](images/Colormap.png "Colormap"){:width="350px"}
+          ![histograms](images/histograms.png "histograms"){:width="400px"}
+          ![Top10](images/heatmap_top10.png "Heatmap"){:width="350px"}
+
+
+
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Vivi Swim School
+        # title: Vivi Swim School
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Software Engineer, Data & Infrastructure (Contract)
         caption: 07/25 - Current
-        # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        quote: >
+
+          Vivi Swim School
+        
         description: | # this will include new lines to allow paragraphs
-            For this system, I built a serverless ETL pipeline with the Gmail API, regex, and Firestore to process over 100 emails per day with more than 99% parsing accuracy, reducing manual workload by 80%. I also developed a full-stack appointment scheduling platform in React and Firebase that handled 50+ daily queries with sub-2-second latency and role-based filtering for coaches and administrators. To further improve performance, I deployed ML and infrastructure services on Google Cloud Run with Firebase CI/CD, cutting latency by 30% and strengthening production reliability. Finally, I published a cross-platform mobile app with React Native and Firebase Functions to the Apple App Store, where continuous updates and new features enhanced stability and user engagement.
+            - Built serverless **ETL pipeline** using Gmail API, regex, and Firestore, processing **100+ emails/day** with **>99% parsing accuracy** and **reducing manual workload by 80%**.  
+            - Developed **full-stack appointment platform** (React + Firebase) handling **50+ daily queries under 2s latency** with role-based filtering, enabling efficient scheduling for coaches/admins.  
+            - Deployed ML/infra services on **Google Cloud Run with Firebase CI/CD, cutting latency by 30%** and improving reliability of production systems.  
+            - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.  
+
 
       
       - layout: left
-        title: Levens Emotion and Cognition Lab
+        # title: 
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Research Assistant (Data Science & Analytics)
         caption: 01/24 - 12/24
-        # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        quote: >
+          Levens Emotion and Cognition Lab
         description: | # this will include new lines to allow paragraphs
-            In this project, I preprocessed and encoded more than 10,000 behavioral data entries from Twitter, transforming categorical and text responses into numeric values and aligning them with a codebook to improve data quality. I conducted statistical analysis and built interactive Excel visualizations to support Multilevel Structural Equation Modeling (MSEM) and causal inference, uncovering key emotional predictors. I also applied A/B testing and feature engineering in weekly research discussions with the PI and PhD students, directly contributing to refinements in experimental design.
-  
+            - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transforming **categorical/text responses into numeric values** and analyzing them with a codebook to improve data quality.  
+            - Conducted **statistical data analysis** and created interactive **Excel visualizations** to support **Multilevel Structural Equation Modeling (MSEM)** and **causal inference**, identifying key emotional predictors.  
+            - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
+            
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
@@ -125,20 +155,18 @@ content:
 
   #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-  #     - Rock climbing
-  #     - Gaming
-  #     - Knitting
-  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: Soft Skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - **Collaboration & Teamwork** – friendly, approachable, and enjoy helping others succeed.  
+      - **Communication** – able to explain technical concepts clearly to both technical and non-technical audiences.  
+      - **Time Management** – skilled at balancing multiple projects and meeting tight deadlines.  
+      - **Adaptability** – quick to learn new tools and adjust to changing project needs.  
+      - **Problem-Solving** – approach challenges with a positive, solution-oriented mindset.  
 
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+# footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
