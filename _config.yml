@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rain Lin
-title: M.S. Data Science Candidate, Boston University (2024–2026)
+title: M.S. Data Science, Boston University (2024–2026)
 email: rain1128@bu.edu
 Resume: https://github.com/TINYRAINYLIN/Rain_Lin/blob/main/RainLin_Resume.pdf
 
@@ -49,7 +49,7 @@ linkedin_username: rainlin112802
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Rain, and I am a Master’s student in Data Science at Boston University (2024–2026) with expertise spanning data analysis, data science, machine learning engineering, and data engineering. I enjoy working across the entire data lifecycle — from designing and managing data pipelines, to conducting advanced statistical and analytical modeling, to developing and deploying machine learning systems in cloud environments. I am motivated to apply these skills in professional settings where rigorous analysis, reliable infrastructure, and impactful model deployment come together.
-  #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
@@ -69,50 +69,74 @@ content:
         quote: >
           End-to-End Hybrid ML Pipeline
         description: | # this will include new lines to allow paragraphs
-            - Engineered product candidates using SVD (collaborative filtering) and BERT content similarity.  
-            - Built a ranking pipeline with XGBoost and ensembled with Neural Collaborative Filtering (NCF), achieving Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89.  
-            - Deployed an interactive Streamlit app on Hugging Face Spaces with full MLOps integration, reducing latency by 20%.  
-            - Tech Stack: Python, scikit-learn, Surprise, XGBoost, NCF, PyTorch, Hugging Face, NLTK, VADER, Streamlit  
+        
+            This work presents a hybrid recommender system for Amazon electronics that combined SVD collaborative filtering and BERT-based content similarity to generate product candidates. Feature vectors were enriched with prediction scores, sentiment analysis, and metadata, which served as inputs for a ranking pipeline powered by XGBoost. The model achieved strong performance (Precision@5 = 0.88, Recall@5 = 0.86, AUC = 0.89) and was further enhanced through ensembling with Neural Collaborative Filtering (NCF). To enable real-time interaction, the system was deployed as a Streamlit application on Hugging Face Spaces with full MLOps integration, reducing latency by 20% and allowing users to seamlessly explore personalized product recommendations.
+       
+       - layout: top-middle
+        title: Real Estate Investment Valuation App
+        # link: 
+        # link_text: GitHub Repo
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TINYRAINYLIN/Real_Estate_Investment_Valuation_App
+        quote: >
+          Advanced Regression Pipeline with Model Comparison
+        description: |
+         The Zillow Kaggle dataset was processed through comprehensive exploratory data analysis, missing value imputation, and the engineering of over 200 domain-driven features to enhance predictive accuracy. Multiple regression models, including Linear Regression, Ridge Regression, Random Forest, and LightGBM, were trained and tuned with cross-validation, with Random Forest delivering the strongest performance (R² = 0.874, MAE = 10.9k, RMSE = 271k, and 85% of predictions within 10k of actual values). Model interpretability was integrated using SHAP visualizations (beeswarm, dependence, and waterfall), alongside Folium geospatial analysis, with deployment preparations underway for an interactive Streamlit application on AWS.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Vivi Swim School
+        # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
+        sub_title: Software Engineer, Data & Infrastructure (Contract)
+        caption: 07/25 - Current
+        # quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            For this system, I built a serverless ETL pipeline with the Gmail API, regex, and Firestore to process over 100 emails per day with more than 99% parsing accuracy, reducing manual workload by 80%. I also developed a full-stack appointment scheduling platform in React and Firebase that handled 50+ daily queries with sub-2-second latency and role-based filtering for coaches and administrators. To further improve performance, I deployed ML and infrastructure services on Google Cloud Run with Firebase CI/CD, cutting latency by 30% and strengthening production reliability. Finally, I published a cross-platform mobile app with React Native and Firebase Functions to the Apple App Store, where continuous updates and new features enhanced stability and user engagement.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      -layout: list # Type of content section (list/text)
+            content:
+              - layout: left
+                title: Levens Emotion and Cognition Lab
+                # link: boringcompany.com
+                # link_text: boringcompany.com
+                sub_title: Research Assistant (Data Science & Analytics)
+                caption: 01/24 - 12/24
+                # quote: >
+                  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+                description: | # this will include new lines to allow paragraphs
+                    In this project, I preprocessed and encoded more than 10,000 behavioral data entries from Twitter, transforming categorical and text responses into numeric values and aligning them with a codebook to improve data quality. I conducted statistical analysis and built interactive Excel visualizations to support Multilevel Structural Equation Modeling (MSEM) and causal inference, uncovering key emotional predictors. I also applied A/B testing and feature engineering in weekly research discussions with the PI and PhD students, directly contributing to refinements in experimental design.
+  
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Harvard University
+  #       caption: 2010 - 2013
+  #       sub_title: BSc Computer Science
+  #       quote: >
+  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
