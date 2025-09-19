@@ -14,22 +14,21 @@
 Links: [GitHub Repo](https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System) · [Live Demo](https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System)
 
 📌 **Description:**  
-- **Engineered product candidate sets** by combining **SVD collaborative filtering** with **BERT-based content similarity**, then constructed **feature vectors** using model **prediction scores**, **VADER sentiment analysis**, and **catalog metadata** (**titles, categories, ratings**) to enrich ranking inputs.  
-- **Trained and tuned an XGBoost ranker** to score and rank candidate products, delivering **top-N personalized recommendations** with **Precision@5 = 0.88**, **Recall@5 = 0.86**, **AUC = 0.89**, and compared with **Neural Collaborative Filtering (NCF)** for **ensemble improvements**.  
-- Deployed an interactive **Streamlit application** with **end-to-end MLOps integration** on **Hugging Face Spaces**, enabling users to **search, filter, and explore recommendations** in real time.  
-
+- Engineered product candidates using SVD (collaborative filtering) and BERT content similarity, and constructed feature vectors with prediction scores, sentiment analysis, and metadata to enrich ranking inputs.
+- Built a recommender system ranking pipeline with XGBoost to generate relevance scores, delivering top recommendations with Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89; further boosted performance by ensembling with NCF.
+- Deployed an interactive Streamlit app with full MLOps on Hugging Face Spaces, reducing latency by 20% and enabling users to explore electronic product recommendations in real time.
 📌 **Tech Stack:** 
 
-- Python, Pandas, scikit-learn, Surprise (SVD), PyTorch (NCF), XGBoost, Hugging Face, NLTK/VADER, Streamlit
+- Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch, Hugging Face, NLTK, VADER, Streamlit
 
-#### **Zillow Property Value Prediction** | End-to-End Regression Pipeline 
+#### **Real Estate Investment Valuation App** | End-to-End Regression Pipeline 
 Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Prediction)
 
 📌 **Description:**  
 
-- **Processed** the Zillow Kaggle dataset with **EDA**, outlier detection, **missing value imputation**, and **feature engineering** to improve model inputs.  
-- **Trained and compared** multiple regression models (**Linear Regression, Ridge, Random Forest, LightGBM**) using **cross-validation** and **randomized/grid search** for hyperparameter tuning.  
-- **Achieved top performance** with **Random Forest** (R² ≈ 0.979, MAE ≈ $5,266, RMSE ≈ $87,717) and validated results with residual plots and diagnostic analysis.  
+- Processed the Zillow Kaggle dataset with EDA, missing value handling, and engineered 200+ domain-driven features to enhance predictive accuracy.
+- Trained and tuned regression models (Linear, Ridge, Random Forest, LightGBM) with cross-validation; achieved best performance with Random Forest (R² = 0.874, MAE = 10.9k, RMSE = 271k, 85% within 10k of actual value).
+- Integrated SHAP explainability (beeswarm, dependence, waterfall) and Folium geospatial visualizations; preparing deployment of an interactive Streamlit app on AWS.
 
 📌 **Status:**  
 - **Current:** **Hyper-tuning RF & LGBM** and selecting a **champion model** via **CV + test metrics**.  
@@ -37,4 +36,4 @@ Links: [GitHub Repo](https://github.com/TINYRAINYLIN/Zillow_Property_Price_Predi
 
 📌 **Tech Stack:** 
 
-- Python, Pandas, scikit-learn, RandomizedSearchCV/GridSearchCV, Ridge, Random Forest, LightGBM, Matplotlib/Seaborn
+- Python, Pandas, scikit-learn, RandomizedSearchCV/GridSearchCV, Ridge, Random Forest, LightGBM, Matplotlib/Seaborn, SHAP, Folium, AWS
