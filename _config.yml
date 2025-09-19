@@ -70,7 +70,10 @@ content:
         quote: >
           End-to-End Hybrid ML Pipeline
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            - Engineered product candidates using SVD (collaborative filtering) and BERT content similarity.  
+            - Built a ranking pipeline with XGBoost and ensembled with Neural Collaborative Filtering (NCF), achieving Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89.  
+            - Deployed an interactive Streamlit app on Hugging Face Spaces with full MLOps integration, reducing latency by 20%.  
+            - Tech Stack: Python, scikit-learn, Surprise, XGBoost, NCF, PyTorch, Hugging Face, NLTK, VADER, Streamlit  
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
