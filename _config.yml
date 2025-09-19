@@ -67,12 +67,12 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          End-to-End Hybrid ML Pipeline
+           Hybrid ML Recommender with Real-Time Deployment
         description: | # this will include new lines to allow paragraphs
         
             This work presents a hybrid recommender system for Amazon electronics that combined SVD collaborative filtering and BERT-based content similarity to generate product candidates. Feature vectors were enriched with prediction scores, sentiment analysis, and metadata, which served as inputs for a ranking pipeline powered by XGBoost. The model achieved strong performance (Precision@5 = 0.88, Recall@5 = 0.86, AUC = 0.89) and was further enhanced through ensembling with Neural Collaborative Filtering (NCF). To enable real-time interaction, the system was deployed as a Streamlit application on Hugging Face Spaces with full MLOps integration, reducing latency by 20% and allowing users to seamlessly explore personalized product recommendations.
        
-       - layout: top-middle
+      - layout: top-middle
         title: Real Estate Investment Valuation App
         # link: 
         # link_text: GitHub Repo
@@ -95,22 +95,21 @@ content:
         sub_title: Software Engineer, Data & Infrastructure (Contract)
         caption: 07/25 - Current
         # quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             For this system, I built a serverless ETL pipeline with the Gmail API, regex, and Firestore to process over 100 emails per day with more than 99% parsing accuracy, reducing manual workload by 80%. I also developed a full-stack appointment scheduling platform in React and Firebase that handled 50+ daily queries with sub-2-second latency and role-based filtering for coaches and administrators. To further improve performance, I deployed ML and infrastructure services on Google Cloud Run with Firebase CI/CD, cutting latency by 30% and strengthening production reliability. Finally, I published a cross-platform mobile app with React Native and Firebase Functions to the Apple App Store, where continuous updates and new features enhanced stability and user engagement.
 
-      -layout: list # Type of content section (list/text)
-            content:
-              - layout: left
-                title: Levens Emotion and Cognition Lab
-                # link: boringcompany.com
-                # link_text: boringcompany.com
-                sub_title: Research Assistant (Data Science & Analytics)
-                caption: 01/24 - 12/24
-                # quote: >
-                  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-                description: | # this will include new lines to allow paragraphs
-                    In this project, I preprocessed and encoded more than 10,000 behavioral data entries from Twitter, transforming categorical and text responses into numeric values and aligning them with a codebook to improve data quality. I conducted statistical analysis and built interactive Excel visualizations to support Multilevel Structural Equation Modeling (MSEM) and causal inference, uncovering key emotional predictors. I also applied A/B testing and feature engineering in weekly research discussions with the PI and PhD students, directly contributing to refinements in experimental design.
+      
+      - layout: left
+        title: Levens Emotion and Cognition Lab
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Research Assistant (Data Science & Analytics)
+        caption: 01/24 - 12/24
+        # quote: >
+          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            In this project, I preprocessed and encoded more than 10,000 behavioral data entries from Twitter, transforming categorical and text responses into numeric values and aligning them with a codebook to improve data quality. I conducted statistical analysis and built interactive Excel visualizations to support Multilevel Structural Equation Modeling (MSEM) and causal inference, uncovering key emotional predictors. I also applied A/B testing and feature engineering in weekly research discussions with the PI and PhD students, directly contributing to refinements in experimental design.
   
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
