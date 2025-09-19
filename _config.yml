@@ -57,9 +57,8 @@ content:
     content:
       - layout: top-middle
         title: Amazon Electronics Recommender System
-        #link: 
-        Live Demo: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
-        # link_text: Project Website
+        link: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
+        link_text: Live Demo
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
