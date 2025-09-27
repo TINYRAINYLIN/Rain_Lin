@@ -94,7 +94,8 @@ content:
         quote: >
           Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
         description: |
-          This work involved processing the Zillow Kaggle dataset through **exploratory data analysis (EDA), missing value handling**, and the engineering of **200+ domain-driven features** to enhance predictive accuracy. A variety of regression models were trained and tuned, including Linear, Ridge, Random Forest, and LightGBM, with cross-validation confirming that the **Random Forest model achieved the strongest performance (R² = 0.874, MAE = 10.9k, RMSE = 271k, with 85% of predictions within 10k of actual values)**. To improve interpretability, **SHAP explainability methods** (beeswarm, dependence, waterfall) were applied to identify key drivers of property value. Additional **geospatial insights** were generated using Folium to visualize property trends across regions. The pipeline is being prepared for **deployment as an interactive Streamlit app on AWS**, enabling real-time property valuation and exploration.
+          **This project** presents an **end-to-end machine learning pipeline** designed to **predict residential property values** using the **Zillow Kaggle dataset**. The process began with **extensive data preparation**, including **exploratory data analysis (EDA)**, **robust handling of missing values**, and the **engineering of over 200 domain-driven features**. Multiple **regression models** were trained and tuned, with an **optimized Random Forest** ultimately selected for its **superior performance**. The final model incorporates **SHAP** for **explainability** and **Folium** for **geospatial visualizations**, and is being prepared for **deployment** as an **interactive Streamlit application on AWS**.  
+
         
           ![SHAP](images/SHAP.png "SHAP"){:width="250px"}
           ![waterfall](images/waterfall.png "waterfall"){:width="350px"}
@@ -121,9 +122,9 @@ content:
           Vivi Swim School
         
         description: | # this will include new lines to allow paragraphs
-            - Built serverless **ETL pipeline** using Gmail API, regex, and Firestore, processing **100+ emails/day** with **>99% parsing accuracy** and **reducing manual workload by 80%**.  
-            - Developed **full-stack appointment platform** (React + Firebase) handling **50+ daily queries under 2s latency** with role-based filtering, enabling efficient scheduling for coaches/admins.  
-            - Deployed ML/infra services on **Google Cloud Run with Firebase CI/CD, cutting latency by 30%** and improving reliability of production systems.  
+            - Built a **serverless ETL pipeline** (Gmail API + Firestore) that automated ingestion of unstructured email data streams with **>99% parsing accuracy**, **reducing manual workload by 80%**.  
+            - Developed a **full-stack appointment platform** (React + Firebase) with role-based access and automated scheduling, **saving 10+ administrative hours** per week and eliminating booking errors.  
+            - Deployed ML/infra services on Google Cloud Run with Firebase CI/CD, **improving production reliability and cutting service latency by 30%.**
             - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.  
 
 
@@ -137,8 +138,9 @@ content:
         quote: >
           Levens Emotion and Cognition Lab
         description: | # this will include new lines to allow paragraphs
-            - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transforming **categorical/text responses into numeric values** and analyzing them with a codebook to improve data quality.  
-            - Conducted **statistical data analysis** and created interactive **Excel visualizations** to support **Multilevel Structural Equation Modeling (MSEM)** and **causal inference**, identifying key emotional predictors.  
+        
+            - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.
+            - Conducted **statistical data analysis** and **causal inference** using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.
             - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
             
   # - title: Education # Title for the section
