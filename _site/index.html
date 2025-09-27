@@ -92,14 +92,14 @@ Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
-</p><p>This work involved <strong>processing the Zillow Kaggle dataset</strong> through exploratory data analysis (EDA), missing value handling, and the engineering of <strong>200+ domain-driven features</strong> to enhance predictive accuracy. A variety of regression models were trained and tuned, including Linear, Ridge, Random Forest, and LightGBM, with cross-validation confirming that the <strong>Random Forest model achieved the strongest performance (R² = 0.874, MAE = 10.9k, RMSE = 271k, with 85% of predictions within 10k of actual values)</strong>. To improve interpretability, <strong>SHAP explainability methods</strong> (beeswarm, dependence, waterfall) were applied to identify key drivers of property value. Additional <strong>geospatial insights</strong> were generated using Folium to visualize property trends across regions. The pipeline is being prepared for <strong>deployment as an interactive Streamlit app on AWS</strong>, enabling real-time property valuation and exploration.</p>
+</p><p><strong>This project</strong> presents an <strong>end-to-end machine learning pipeline</strong> using the <strong>Zillow Kaggle dataset</strong> to <strong>predict residential property values</strong>. The workflow included <strong>EDA</strong>, <strong>handling of missing values</strong>, and the <strong>engineering of 200+ domain-driven features</strong>. Multiple regression models were trained and tuned, with a <strong>Random Forest</strong> selected for its <strong>higher accuracy</strong>, achieving <strong>R² = 0.87</strong> (up from 0.69 baseline), reducing <strong>MAE to $10,989</strong> (90% error reduction), and delivering <strong>85% of predictions within $10k</strong> of actual values. The model integrates <strong>SHAP</strong> for explainability and <strong>Folium</strong> for geospatial visualizations, and is being prepared for <strong>deployment</strong> as an <strong>interactive Streamlit application on AWS</strong>.</p>
 
 <p><img src="images/SHAP.png" alt="SHAP" title="SHAP" width="250px" />
-<img src="images/waterfall.png" alt="waterfall" title="waterfall" width="350px" />
-<img src="images/Heatmap.png" alt="Heatmap" title="Heatmap" width="300px" />
-<img src="images/Colormap.png" alt="Colormap" title="Colormap" width="350px" />
-<img src="images/histograms.png" alt="histograms" title="histograms" width="400px" />
-<img src="images/heatmap_top10.png" alt="Top10" title="Heatmap" width="350px" /></p>
+ <img src="images/waterfall.png" alt="waterfall" title="waterfall" width="350px" />
+ <img src="images/Heatmap.png" alt="Heatmap" title="Heatmap" width="300px" />
+ <img src="images/Colormap.png" alt="Colormap" title="Colormap" width="350px" />
+ <img src="images/histograms.png" alt="histograms" title="histograms" width="400px" />
+ <img src="images/heatmap_top10.png" alt="Top10" title="Heatmap" width="350px" /></p>
 
     </div>
   </div>
@@ -119,9 +119,9 @@ Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">
 Vivi Swim School
 </p><ul>
-  <li>Built serverless <strong>ETL pipeline</strong> using Gmail API, regex, and Firestore, processing <strong>100+ emails/day</strong> with <strong>&gt;99% parsing accuracy</strong> and <strong>reducing manual workload by 80%</strong>.</li>
-  <li>Developed <strong>full-stack appointment platform</strong> (React + Firebase) handling <strong>50+ daily queries under 2s latency</strong> with role-based filtering, enabling efficient scheduling for coaches/admins.</li>
-  <li>Deployed ML/infra services on <strong>Google Cloud Run with Firebase CI/CD, cutting latency by 30%</strong> and improving reliability of production systems.</li>
+  <li>Built a <strong>serverless ETL pipeline</strong> (Gmail API + Firestore) that automated ingestion of unstructured email data streams with <strong>&gt;99% parsing accuracy</strong>, <strong>reducing manual workload by 80%</strong>.</li>
+  <li>Developed a <strong>full-stack appointment platform</strong> (React + Firebase) with role-based access and automated scheduling, <strong>saving 10+ administrative hours</strong> per week and eliminating booking errors.</li>
+  <li>Deployed ML/infra services on Google Cloud Run with Firebase CI/CD, <strong>improving production reliability and cutting service latency by 30%.</strong></li>
   <li>Published <strong>cross-platform mobile app</strong> (React Native + Firebase Functions) to <strong>Apple App Store</strong>, improving user stability and engagement through continuous feature updates and bug fixes.</li>
 </ul>
 
@@ -136,8 +136,8 @@ Vivi Swim School
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content"><p class="quote">Levens Emotion and Cognition Lab
 </p><ul>
-  <li>Preprocessed and encoded <strong>10k+ unstructured behavioral data entries</strong> from Twitter, transforming <strong>categorical/text responses into numeric values</strong> and analyzing them with a codebook to improve data quality.</li>
-  <li>Conducted <strong>statistical data analysis</strong> and created interactive <strong>Excel visualizations</strong> to support <strong>Multilevel Structural Equation Modeling (MSEM)</strong> and <strong>causal inference</strong>, identifying key emotional predictors.</li>
+  <li>Preprocessed and encoded <strong>10k+ unstructured behavioral data entries</strong> from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.</li>
+  <li>Conducted <strong>statistical data analysis</strong> and <strong>causal inference</strong> using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.</li>
   <li>Applied <strong>A/B testing, feature engineering, and data analysis</strong> in weekly research discussions with PI and PhD students, contributing to experimental design improvements.</li>
 </ul>
 

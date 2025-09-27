@@ -94,9 +94,8 @@ content:
         quote: >
           Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
         description: |
-          **This project** presents an **end-to-end machine learning pipeline** designed to **predict residential property values** using the **Zillow Kaggle dataset**. The process began with **extensive data preparation**, including **exploratory data analysis (EDA)**, **robust handling of missing values**, and the **engineering of over 200 domain-driven features**. Multiple **regression models** were trained and tuned, with an **optimized Random Forest** ultimately selected for its **superior performance**. The final model incorporates **SHAP** for **explainability** and **Folium** for **geospatial visualizations**, and is being prepared for **deployment** as an **interactive Streamlit application on AWS**.  
+         **This project** presents an **end-to-end machine learning pipeline** using the **Zillow Kaggle dataset** to **predict residential property values**. The workflow included **EDA**, **handling of missing values**, and the **engineering of 200+ domain-driven features**. Multiple regression models were trained and tuned, with a **Random Forest** selected for its **higher accuracy**, achieving **R² = 0.87** (up from 0.69 baseline), reducing **MAE to $10,989** (90% error reduction), and delivering **85% of predictions within $10k** of actual values. The model integrates **SHAP** for explainability and **Folium** for geospatial visualizations, and is being prepared for **deployment** as an **interactive Streamlit application on AWS**.
 
-        
           ![SHAP](images/SHAP.png "SHAP"){:width="250px"}
           ![waterfall](images/waterfall.png "waterfall"){:width="350px"}
           ![Heatmap](images/Heatmap.png "Heatmap"){:width="300px"}
