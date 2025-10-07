@@ -48,7 +48,7 @@ linkedin_username: rainlin112802
 # about_title: **About Me**
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is **Rain**, and I am a **Master’s student in Data Science at Boston University** with expertise spanning **data analysis, data science, machine learning engineering, and data engineering**. I enjoy working across the entire **data lifecycle**, from **designing and managing data pipelines**, to conducting advanced **statistical and analytical modeling**, to developing and deploying **machine learning systems in cloud environments**. I am motivated to apply these skills in professional settings where rigorous analysis, reliable infrastructure, and impactful model deployment come together.
+  My name is **Rain**, and I am a **Master’s student in Data Science at Boston University**. My expertise encompasses the **entire data lifecycle**, including the design and management of **data pipelines**, advanced **statistical and analytical modeling**, and the development and deployment of **machine learning systems** in cloud environments. I am motivated to apply these skills in a professional setting where rigorous analysis, reliable infrastructure, and impactful model deployment are paramount.
 
 #I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
