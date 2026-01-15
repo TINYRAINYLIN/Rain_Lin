@@ -84,9 +84,9 @@ content:
               
 
       - layout: top-middle
-        title: Real Estate Investment Valuation App
-        # link: 
-        # link_text: GitHub Repo
+        title: PropertyIQ
+        link： https://realestateinvestmentvaluationapp-ac5hrwunnzbgqxbxlkuwjz.streamlit.app/ 
+        link_text: Live Demo
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
@@ -94,7 +94,7 @@ content:
         quote: >
           Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
         description: |
-         **This project** presents an **end-to-end machine learning pipeline** using the **Zillow Kaggle dataset** to **predict residential property values**. The workflow included **EDA**, **handling of missing values**, and the **engineering of 200+ domain-driven features**. Multiple regression models were trained and tuned, with a **Random Forest** selected for its **higher accuracy**, achieving **R² = 0.87** (up from 0.69 baseline), reducing **MAE to $10,989** (90% error reduction), and delivering **85% of predictions within $10k** of actual values. The model integrates **SHAP** for explainability and **Folium** for geospatial visualizations, and is being prepared for **deployment** as an **interactive Streamlit application on AWS**.
+         **This project** presents an **end-to-end machine learning pipeline** using the **Zillow Kaggle dataset** to **predict residential property values**. The workflow included **EDA**, **handling of missing values**, and the **engineering of 200+ domain-driven features**. Multiple regression models were trained and tuned, with a **Random Forest** selected for its **higher accuracy**, achieving **R² = 0.87** (up from 0.69 baseline), reducing **MAE to $10,989** (90% error reduction), and delivering **85% of predictions within $10k** of actual values. The model integrates **SHAP** for explainability and **Folium** for geospatial visualizations, and  is deployed as an interactive Streamlit application on **Streamlit Cloud**.
 
           ![SHAP](images/SHAP.png "SHAP"){:width="250px"}
           ![waterfall](images/waterfall.png "waterfall"){:width="350px"}
