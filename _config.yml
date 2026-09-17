@@ -84,7 +84,7 @@ content:
               
 
       - layout: top-middle
-        title: PropertyIQ
+        title: Real Estate Investment Valuation App
         link: https://realestateinvestmentvaluationapp-ac5hrwunnzbgqxbxlkuwjz.streamlit.app/ 
         link_text: Live Demo
         additional_links:
@@ -110,12 +110,27 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+
+     - layout: left
+        # title: 
+        # link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Data Scientist III Intern
+        caption: 06/26 - 08/26
+        quote: >
+          Walmart Global Tech
+        description: | # this will include new lines to allow paragraphs
+             - Prototyped an **LLM-based engagement judge**, training a compact **student model** (**Llama 3.2 1B**) to jointly predict user engagement and generate a **natural-language rationale** explaining its decision, so instead of just a number, the model also explains why it thinks a user would or wouldn't engage.
+             - Designed a **modality alignment bridge** by building two **MLP projectors** (~5.3M params total) that take dense RecSys embeddings (user journey and item content) and project them into the LLM's token space as continuous soft tokens, similar to how vision-language models inject image features into an LLM. This lets the model reason over behavioral signals directly, without converting them to text first. Fine-tuned the student with **LoRA** on this setup, reaching a **1.61x AUC-PR lift** (2.31x at a 20% recall operating point) over a random baseline.
+            - Engineered the data pipeline by building a **PySpark** pipeline on **GCP** to sample 100K+ user trajectories, resolving embedding joins across teams via hash keys, and enforcing strict temporal-causal correctness (embeddings could only reflect activity before the prediction point) to rule out data leakage. Validated with **zero-embedding ablations** and **bootstrap confidence intervals**.
+            
       - layout: left
         # title: Vivi Swim School
         # link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Software Engineer
-        caption: 07/25 - Current
+        caption: 07/25 - 02/26
         quote: >
 
           Vivi Swim School
