@@ -50,72 +50,58 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   My name is **Rain**, and I am a **Master’s student in Data Science at Boston University**. My interests lie in data science and machine learning engineering, particularly experimental design, model training, and building data-driven systems that perform in practice.
 content:
-  - title: Experience
-    layout: list
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+
     content:
       - layout: left
+        # title: 
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Data Scientist III Intern
         caption: 06/26 - 08/26
         quote: >
           Walmart Global Tech
-        description: |
+        description: | # this will include new lines to allow paragraphs
             - Prototyped an **LLM-based engagement judge**, training a compact **student model** (**Llama 3.2 1B**) to jointly predict user engagement and generate a **natural-language rationale** explaining its decision, so instead of just a number, the model also explains why it thinks a user would or wouldn't engage.
             - Designed a **modality alignment bridge** by building two **MLP projectors** (~5.3M params total) that take dense RecSys embeddings (user journey and item content) and project them into the LLM's token space as continuous soft tokens, similar to how vision-language models inject image features into an LLM. This lets the model reason over behavioral signals directly, without converting them to text first. Fine-tuned the student with **LoRA** on this setup, reaching a **1.61x AUC-PR lift** (2.31x at a 20% recall operating point) over a random baseline.
             - Engineered the data pipeline by building a **PySpark** pipeline on **GCP** to sample 100K+ user trajectories, resolving embedding joins across teams via hash keys, and enforcing strict temporal-causal correctness (embeddings could only reflect activity before the prediction point) to rule out data leakage. Validated with **zero-embedding ablations** and **bootstrap confidence intervals**.
-
+            
       - layout: left
+        # title: Vivi Swim School
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Software Engineer
         caption: 07/25 - 02/26
         quote: >
-          Vivi Swim School
-        description: |
-            - Built a **serverless ETL pipeline** (Gmail API + Firestore) that automated ingestion of unstructured email data streams with **>99% parsing accuracy**, **reducing manual workload by 80%**.
-            - Developed a **full-stack appointment platform** (React + Firebase) with role-based access and automated scheduling, **saving 10+ administrative hours** per week and eliminating booking errors.
-            - Deployed ML/infra services on Google Cloud Run with Firebase CI/CD, **improving production reliability and cutting service latency by 30%.**
-            - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.
 
+          Vivi Swim School
+        
+        description: | # this will include new lines to allow paragraphs
+            - Built a **serverless ETL pipeline** (Gmail API + Firestore) that automated ingestion of unstructured email data streams with **>99% parsing accuracy**, **reducing manual workload by 80%**.  
+            - Developed a **full-stack appointment platform** (React + Firebase) with role-based access and automated scheduling, **saving 10+ administrative hours** per week and eliminating booking errors.  
+            - Deployed ML/infra services on Google Cloud Run with Firebase CI/CD, **improving production reliability and cutting service latency by 30%.**
+            - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.  
+
+
+      
       - layout: left
+        # title: 
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Research Assistant
         caption: 01/24 - 12/24
         quote: >
           Levens Emotion and Cognition Lab
-        description: |
+        description: | # this will include new lines to allow paragraphs
+        
             - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.
             - Conducted **statistical data analysis** and **causal inference** using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.
-            - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.
+            - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
 
-  - title: Projects
-    layout: list
     content:
-      - layout: top-middle
-        title: Amazon Electronics Recommender System
-        image: images/Sentiment_Score_for_Cleaned_Data.png
-        link: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
-        link_text: Live Demo
-        additional_links:
-          - title: GitHub
-            icon: fab fa-github
-            url: https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System
-        quote: >
-          Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch, Hugging Face, NLTK, VADER, Streamlit
-        description: |
-              This project developed a **hybrid recommendation system** for Amazon electronics using a **multi-stage architecture**. Candidate products were generated with **SVD (Surprise)** for collaborative filtering and **BERT embeddings** for content similarity. **Feature vectors** were engineered by combining **prediction scores**, **sentiment scores (VADER)**, and **product metadata**, which were then ranked with **XGBoost**. The system achieved **Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89**, and performance was further improved through ensembling with **Neural Collaborative Filtering (PyTorch)**. Deployment was completed with a **Streamlit app** on **Hugging Face Spaces**, integrating **MLOps practices** to reduce latency by **20%** and enabling **real-time recommendation exploration**.
-              ![SC](images/Sentiment_Score_for_Cleaned_Data.png "SC"){:width="420px"}
-              ![Demo](images/Demo_Pic.png "Demo"){:width="320px"}
-              ![Bar](images/Bar.png "Bar"){:width="370px"}
-              ![Table](images/Final_Score_Table.png "Table"){:width="1000px"}
-
-  - title: Soft Skills
-    layout: text
-    content: |
-      - **Collaboration & Teamwork** – friendly, approachable, and enjoy helping others succeed.
-      - **Communication** – able to explain technical concepts clearly to both technical and non-technical audiences.
-      - **Time Management** – skilled at balancing multiple projects and meeting tight deadlines.
-      - **Adaptability** – quick to learn new tools and adjust to changing project needs.
-      - **Problem-Solving** – approach challenges with a positive, solution-oriented mindset.
- - title: Projects # Title for the section
+     - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
-    content:            
       - layout: top-middle
         title: Amazon Electronics Recommender System
         image: images/Sentiment_Score_for_Cleaned_Data.png
