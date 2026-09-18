@@ -49,6 +49,7 @@ linkedin_username: rainlin112802
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   My name is Rain Lin, and I am a Master's student in Data Science at Boston University, with an academic foundation in Psychology from UNC Charlotte. This background shaped my approach to data science: I am equally focused on the statistical rigor behind a result, ensuring it reflects a genuine signal rather than noise, and on the engineering required to bring that result into a working system. My recent work has applied this approach across recommendation systems and LLM-based evaluation methods at Walmart Global Tech, alongside independent projects spanning the full pipeline from data engineering to model deployment.
+content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
