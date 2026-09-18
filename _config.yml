@@ -50,9 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   My name is **Rain**, and I am a **Master’s student in Data Science at Boston University**. My interests lie in data science and machine learning engineering, particularly experimental design, model training, and building data-driven systems that perform in practice.
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
+ 
      - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -100,7 +98,9 @@ content:
             - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.
             - Conducted **statistical data analysis** and **causal inference** using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.
             - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
-            
+ - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:            
       - layout: top-middle
         title: Amazon Electronics Recommender System
         image: images/Sentiment_Score_for_Cleaned_Data.png
