@@ -53,7 +53,10 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-    - layout: left
+     - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
         # title: 
         # link: boringcompany.com
         # link_text: boringcompany.com
@@ -97,13 +100,8 @@ content:
             - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.
             - Conducted **statistical data analysis** and **causal inference** using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.
             - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
-
-
-
-  - title: Project # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-    - layout: top-middle
+            
+      - layout: top-middle
         title: Amazon Electronics Recommender System
         image: images/Sentiment_Score_for_Cleaned_Data.png
         link: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
@@ -151,8 +149,10 @@ content:
           ![Top10](images/heatmap_top10.png "Heatmap"){:width="350px"}
 
 
-      
-            
+
+
+
+ 
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
