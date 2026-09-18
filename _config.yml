@@ -51,42 +51,54 @@ about_content: | # this will include new lines to allow paragraphs
   My name is **Rain**, and I am a **Master's student in Data Science at Boston University**. My interests lie in data science and machine learning engineering, particularly experimental design, model training, and building data-driven systems that perform in practice.
 
 content:
-  - title: Experience
-    layout: list
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
+        # title: 
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Data Scientist III Intern
         caption: 06/26 - 08/26
         quote: >
           Walmart Global Tech
-        description: |
+        description: | # this will include new lines to allow paragraphs
             - Prototyped an **LLM-based engagement judge**, training a compact **student model** (**Llama 3.2 1B**) to jointly predict user engagement and generate a **natural-language rationale** explaining its decision, so instead of just a number, the model also explains why it thinks a user would or wouldn't engage.
             - Designed a **modality alignment bridge** by building two **MLP projectors** (~5.3M params total) that take dense RecSys embeddings (user journey and item content) and project them into the LLM's token space as continuous soft tokens, similar to how vision-language models inject image features into an LLM. This lets the model reason over behavioral signals directly, without converting them to text first. Fine-tuned the student with **LoRA** on this setup, reaching a **1.61x AUC-PR lift** (2.31x at a 20% recall operating point) over a random baseline.
             - Engineered the data pipeline by building a **PySpark** pipeline on **GCP** to sample 100K+ user trajectories, resolving embedding joins across teams via hash keys, and enforcing strict temporal-causal correctness (embeddings could only reflect activity before the prediction point) to rule out data leakage. Validated with **zero-embedding ablations** and **bootstrap confidence intervals**.
 
       - layout: left
+        # title: Vivi Swim School
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Software Engineer
         caption: 07/25 - 02/26
         quote: >
+
           Vivi Swim School
-        description: |
-            - Built a **serverless ETL pipeline** (Gmail API + Firestore) that automated ingestion of unstructured email data streams with **>99% parsing accuracy**, **reducing manual workload by 80%**.
-            - Developed a **full-stack appointment platform** (React + Firebase) with role-based access and automated scheduling, **saving 10+ administrative hours** per week and eliminating booking errors.
+
+        description: | # this will include new lines to allow paragraphs
+            - Built a **serverless ETL pipeline** (Gmail API + Firestore) that automated ingestion of unstructured email data streams with **>99% parsing accuracy**, **reducing manual workload by 80%**.  
+            - Developed a **full-stack appointment platform** (React + Firebase) with role-based access and automated scheduling, **saving 10+ administrative hours** per week and eliminating booking errors.  
             - Deployed ML/infra services on Google Cloud Run with Firebase CI/CD, **improving production reliability and cutting service latency by 30%.**
-            - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.
+            - Published **cross-platform mobile app** (React Native + Firebase Functions) to **Apple App Store**, improving user stability and engagement through continuous feature updates and bug fixes.  
 
       - layout: left
+        # title: 
+        # link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Research Assistant
         caption: 01/24 - 12/24
         quote: >
           Levens Emotion and Cognition Lab
-        description: |
+        description: | # this will include new lines to allow paragraphs
+
             - Preprocessed and encoded **10k+ unstructured behavioral data entries** from Twitter, transformed categorical/text responses into numeric values, and analyzed them based on the codebook to improve data quality.
             - Conducted **statistical data analysis** and **causal inference** using Multilevel Structural Equation Modeling (MSEM), presenting findings through interactive data visualizations to identify emotional predictors.
-            - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.
+            - Applied **A/B testing, feature engineering, and data analysis** in weekly research discussions with PI and PhD students, contributing to experimental design improvements.  
 
-  - title: Projects
-    layout: list
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Amazon Electronics Recommender System
@@ -94,26 +106,66 @@ content:
         link: https://huggingface.co/spaces/ZPENG127/Hybrid-Ensemble-Recommender-System
         link_text: Live Demo
         additional_links:
-          - title: GitHub
+          - title:  sproogen/modern-resume-theme
             icon: fab fa-github
             url: https://github.com/The-Zero-Shot-Duo/Hybrid-Ensemble-Recommender-System
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch, Hugging Face, NLTK, VADER, Streamlit
-        description: |
-              This project developed a **hybrid recommendation system** for Amazon electronics using a **multi-stage architecture**. Candidate products were generated with **SVD (Surprise)** for collaborative filtering and **BERT embeddings** for content similarity. **Feature vectors** were engineered by combining **prediction scores**, **sentiment scores (VADER)**, and **product metadata**, which were then ranked with **XGBoost**. The system achieved **Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89**, and performance was further improved through ensembling with **Neural Collaborative Filtering (PyTorch)**. Deployment was completed with a **Streamlit app** on **Hugging Face Spaces**, integrating **MLOps practices** to reduce latency by **20%** and enabling **real-time recommendation exploration**.
-              ![SC](images/Sentiment_Score_for_Cleaned_Data.png "SC"){:width="420px"}
-              ![Demo](images/Demo_Pic.png "Demo"){:width="320px"}
+           
+            Python, scikit-learn, Surprise, XGBoost, Neural Collaborative Filtering, PyTorch, Hugging Face, NLTK, VADER, Streamlit
+
+        description: | # this will include new lines to allow paragraphs
+
+              This project developed a **hybrid recommendation system** for Amazon electronics using a **multi-stage architecture**. Candidate products were generated with **SVD (Surprise)** for collaborative filtering and **BERT embeddings** for content similarity. **Feature vectors** were engineered by combining **prediction scores**, **sentiment scores (VADER)**, and **product metadata**, which were then ranked with **XGBoost**. The system achieved **Precision@5 = 0.88, Recall@5 = 0.86, and AUC = 0.89**, and performance was further improved through ensembling with **Neural Collaborative Filtering (PyTorch)**. Deployment was completed with a **Streamlit app** on **Hugging Face Spaces**, integrating **MLOps practices** to reduce latency by **20%** and enabling **real-time recommendation exploration**.  
+              ![SC](images/Sentiment Score for Cleaned Data.png "SC"){:width="420px"}
+              ![Demo](images/Demo Pic.png "Demo"){:width="320px"}
               ![Bar](images/Bar.png "Bar"){:width="370px"}
-              ![Table](images/Final_Score_Table.png "Table"){:width="1000px"}
+              ![Table](images/Final Score Table.png "Table"){:width="1000px"}
+
+      - layout: top-middle
+        title: Real Estate Investment Valuation App
+        link: https://realestateinvestmentvaluationapp-ac5hrwunnzbgqxbxlkuwjz.streamlit.app/ 
+        link_text: Live Demo
+        additional_links:
+          - title:  sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/TINYRAINYLIN/Real_Estate_Investment_Valuation_App
+        quote: >
+          Python, Pandas, scikit-learn, Random Forest, LightGBM, SHAP, Folium, AWS
+        description: |
+         **This project** presents an **end-to-end machine learning pipeline** using the **Zillow Kaggle dataset** to **predict residential property values**. The workflow included **EDA**, **handling of missing values**, and the **engineering of 200+ domain-driven features**. Multiple regression models were trained and tuned, with a **Random Forest** selected for its **higher accuracy**, achieving **R² = 0.87** (up from 0.69 baseline), reducing **MAE to $10,989** (90% error reduction), and delivering **85% of predictions within $10k** of actual values. The model integrates **SHAP** for explainability and **Folium** for geospatial visualizations, and  is deployed as an interactive Streamlit application on **Streamlit Cloud** with **Docker containerization.**
+
+          ![SHAP](images/SHAP.png "SHAP"){:width="250px"}
+          ![waterfall](images/waterfall.png "waterfall"){:width="350px"}
+          ![Heatmap](images/Heatmap.png "Heatmap"){:width="300px"}
+          ![Colormap](images/Colormap.png "Colormap"){:width="350px"}
+          ![histograms](images/histograms.png "histograms"){:width="400px"}
+          ![Top10](images/heatmap_top10.png "Heatmap"){:width="350px"}
+
+  # - title: Education # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       title: Harvard University
+  #       caption: 2010 - 2013
+  #       sub_title: BSc Computer Science
+  #       quote: >
+  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+  #       description: | # this will include new lines to allow paragraphs
+  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: Soft Skills
     layout: text
-    content: |
-      - **Collaboration & Teamwork** – friendly, approachable, and enjoy helping others succeed.
-      - **Communication** – able to explain technical concepts clearly to both technical and non-technical audiences.
-      - **Time Management** – skilled at balancing multiple projects and meeting tight deadlines.
-      - **Adaptability** – quick to learn new tools and adjust to changing project needs.
-      - **Problem-Solving** – approach challenges with a positive, solution-oriented mindset.
+    content: | # this will include new lines to allow paragraphs
+      - **Collaboration & Teamwork** – friendly, approachable, and enjoy helping others succeed.  
+      - **Communication** – able to explain technical concepts clearly to both technical and non-technical audiences.  
+      - **Time Management** – skilled at balancing multiple projects and meeting tight deadlines.  
+      - **Adaptability** – quick to learn new tools and adjust to changing project needs.  
+      - **Problem-Solving** – approach challenges with a positive, solution-oriented mindset.  
 
 # Footer
 # footer_show_references: true
@@ -127,4 +179,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
