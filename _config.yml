@@ -48,10 +48,7 @@ linkedin_username: rainlin112802
 # about_title: **About Me**
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  My name is **Rain**, and I am a **Master’s student in Data Science at Boston University**. My expertise encompasses the **entire data lifecycle**, including the design and management of **data pipelines**, advanced **statistical and analytical modeling**, and the development and deployment of **machine learning systems** in cloud environments. I am motivated to apply these skills in a professional setting where rigorous analysis, reliable infrastructure, and impactful model deployment are paramount.
-
-#I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
+  My name is **Rain**, and I am a **Master’s student in Data Science at Boston University**. My interests lie in data science and machine learning engineering, particularly experimental design, model training, and building data-driven systems that perform in practice.
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -110,8 +107,6 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-
-
      - layout: left
         # title: 
         # link: boringcompany.com
@@ -121,8 +116,8 @@ content:
         quote: >
           Walmart Global Tech
         description: | # this will include new lines to allow paragraphs
-             - Prototyped an **LLM-based engagement judge**, training a compact **student model** (**Llama 3.2 1B**) to jointly predict user engagement and generate a **natural-language rationale** explaining its decision, so instead of just a number, the model also explains why it thinks a user would or wouldn't engage.
-             - Designed a **modality alignment bridge** by building two **MLP projectors** (~5.3M params total) that take dense RecSys embeddings (user journey and item content) and project them into the LLM's token space as continuous soft tokens, similar to how vision-language models inject image features into an LLM. This lets the model reason over behavioral signals directly, without converting them to text first. Fine-tuned the student with **LoRA** on this setup, reaching a **1.61x AUC-PR lift** (2.31x at a 20% recall operating point) over a random baseline.
+            - Prototyped an **LLM-based engagement judge**, training a compact **student model** (**Llama 3.2 1B**) to jointly predict user engagement and generate a **natural-language rationale** explaining its decision, so instead of just a number, the model also explains why it thinks a user would or wouldn't engage.
+            - Designed a **modality alignment bridge** by building two **MLP projectors** (~5.3M params total) that take dense RecSys embeddings (user journey and item content) and project them into the LLM's token space as continuous soft tokens, similar to how vision-language models inject image features into an LLM. This lets the model reason over behavioral signals directly, without converting them to text first. Fine-tuned the student with **LoRA** on this setup, reaching a **1.61x AUC-PR lift** (2.31x at a 20% recall operating point) over a random baseline.
             - Engineered the data pipeline by building a **PySpark** pipeline on **GCP** to sample 100K+ user trajectories, resolving embedding joins across teams via hash keys, and enforcing strict temporal-causal correctness (embeddings could only reflect activity before the prediction point) to rule out data leakage. Validated with **zero-embedding ablations** and **bootstrap confidence intervals**.
             
       - layout: left
